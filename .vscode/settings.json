@@ -1,0 +1,21 @@
+{
+  "go.testOnSave": true,
+  "go.lintOnSave": "package",
+  "go.formatTool": "goimports",
+  "go.testFlags": [
+    "~v"
+  ],
+  "go.autocompleteUnimportedPackages": true,
+  "[go]": {
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#3E2A0B",
+    "titleBar.activeBackground": "#573A0F",
+    "titleBar.activeForeground": "#FDFAF5"
+  }
+}
